@@ -47,4 +47,3 @@ These scripts are for educational purposes and should be used responsibly and et
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-```
