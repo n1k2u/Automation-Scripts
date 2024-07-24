@@ -1,27 +1,4 @@
-##### BonusLab1 #####
-##### CSEC-380/480 Advanced Cybersecurity Automation - Ryan Haley####
 
-'''
-#1)5 points
-Research and install ansible in the netlabs environment on the kali machine.
-Use it to configure a playbook that will connect to the practice_final box
-and perform the following tasks:
-- add a user jsmith with a password of Password123!
-- give the user sudo permissions
-- configure SSH to disallow root logins
-- stop and disable the apache service
-
-https://docs.ansible.com/ansible/latest/getting_started/index.html
-'''
-
-
-
-'''
-IMPORTANT - need to run below commands before executing
-sudo apt-get install sshpass - This is used to pass the ssh password instead of key
-ssh-keyscan -H 10.12.0.20 >> ~/.ssh/known_hosts - This is to set the "ip" as known host
-
-'''
 import subprocess
 import yaml
 
